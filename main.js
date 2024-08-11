@@ -37,8 +37,11 @@ client.on('message_create' , async (message) => {
     const text = message.body;
     
     if (!message.fromMe){
-        const reply = await  generateReply(msg=text,sessionId=user);
-        message.reply(reply);
+        if(text.includes("@shopping")){
+            text_content = text.replace("@shopping","")
+            const reply = await  generateReply(msg=text_content,sessionId=user);
+            message.reply(reply);
+        }
     };
 
 })
