@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@langchain/community": "^0.2.25",
+    "@langchain/google-genai": "^0.0.25",
+    "@langchain/ollama": "^0.0.4",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.13",
+    "mongoose": "^8.5.2",
+    "node-fetch": "^3.3.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.25.0",
+    "wwebjs-mongo": "^1.1.0"
+  }
+}
